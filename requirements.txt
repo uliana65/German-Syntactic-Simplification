@@ -1,0 +1,5 @@
+jsonlines==3.0.0
+matplotlib==3.4.2
+multilang_summarizer==1.7
+numpy==1.20.3
+spacy==3.3.0
