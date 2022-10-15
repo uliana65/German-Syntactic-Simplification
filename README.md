@@ -1,1 +1,1 @@
-# German-Simplification-and-Summarization
+# German-Syntactic-Simplification
