@@ -43,5 +43,5 @@ Use this command to perform evaluation on your _jsonl_ file or _txt_ file:
 
 This will provide Flesch scores for each of the corpora and plot their syntactic distributions.
 
-####Acknoledgements:
+#### Acknoledgements:
 This project makes use of German verb conjugation dictionary from the Pattern library compiled by Andreas Motl (https://gist.github.com/amotl/ad5ecda4579ad60bb6497b7ddabc8ad0). The summarization is performed by the Multilang Summarizer developed by Arturo Curiel. Thanks to them for their work! 
