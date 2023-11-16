@@ -1,12 +1,12 @@
 # Syntactic Simplification for German
 
-###Purpose:
+### Purpose:
 This project intends to perform syntactic simplification of German texts to make them more readable for children of the age of 8-12. 
 The rewrite rules are motivated by the syntactic structure of the original German texts targeted at children of this age.
 
-###Use
+### Use
 
-####Prepare data files:
+#### Prepare data files:
 Use 2 file formats: _txt_ or _jsonl_
 1. Structure of a _txt_ file:
     
@@ -21,14 +21,14 @@ Use 2 file formats: _txt_ or _jsonl_
     The "u_id" field is a unique document id. The "wiki_sentences" is a list of sentences of the original text. The "klexikon_sentences" is a list of sentences of the target text. 
     Each sentence in should appear separately in the list. Refer to the `klexikon.jsonl` file for an example. 
 
-####Simplify:
+#### Simplify:
 Use this command to run syntactic simplification on your file:
 
 `python syntactic_simplifier.py path_to_your_data_file`
 
 This will write a new _simplified.txt_ file with simplified texts under the same ID as the original ones.
 
-####Summarize:
+#### Summarize:
 Change the file path in the `summarizer.py` file, line 27 to where your multilang_summarizer is located (keep the path from "/multilang_summarizer/data/temp/running_summary_1.txt").
 Use this command to run summarization on your _jsonl_ file or the _simplified.txt_ file:
 
@@ -36,7 +36,7 @@ Use this command to run summarization on your _jsonl_ file or the _simplified.tx
 
 This will write a new _summarized.txt_ file with summarized texts under the same ID as the input ones.
 
-####Evaluate:
+#### Evaluate:
 Use this command to perform evaluation on your _jsonl_ file or _txt_ file:
 
 `python evaluate.py path_to_your_original_file path_to_your_simplified/summarized_file`
