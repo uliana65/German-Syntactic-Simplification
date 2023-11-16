@@ -2,7 +2,7 @@
 
 ### Purpose:
 This project intends to perform syntactic simplification of German texts to make them more readable for children of the age of 8-12. 
-The rewrite rules are motivated by the syntactic structure of the original German texts targeted at children of this age.
+The rewrite rules are motivated by the syntactic structure of the original German texts targeted at children of this age and are summarized in [the report file](https://github.com/uliana65/German-Syntactic-Simplification/report.pdf).
 
 ### Use
 
